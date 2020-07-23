@@ -1,6 +1,6 @@
 ---
 title: "Leveled logs with Cobra and Logrus"
-date: "2019-07-23"
+date: "2020-07-23"
 hideReadMore: true
 Description: How to implement leveled logs for a Cobra CLI using the Logrus framework.
 ---
