@@ -1,5 +1,5 @@
 ---
-title: "Explain in the Membrane"
+title: "Explain in the membrane"
 date: "2019-07-22"
 hideReadMore: true
 Description: An exploration of explainshell and cheat.sh, two excellent bash productivity enhancement tools.

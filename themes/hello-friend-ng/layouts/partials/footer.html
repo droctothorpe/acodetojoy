@@ -3,7 +3,8 @@
         <div class="footer__content">
             <span>&copy; {{ now.Format "2006" }}</span>
             {{ if .Site.Author.name }}
-            <span><a href="{{ .Site.BaseURL }}/about">{{ .Site.Author.name }}</a></span>
+            <!-- <span><a href="{{ .Site.BaseURL }}/about">{{ .Site.Author.name }}</a></span> -->
+            <span><a href="/about">{{ .Site.Author.name }}</a></span>
             {{ end }}
             {{ if .Site.Copyright }}
             <span>{{ .Site.Copyright| safeHTML }}</span>

@@ -1,4 +1,4 @@
-baseURL = "droctothorpe.github.io"
+baseURL = "/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 title = "a code to joy"
@@ -137,10 +137,10 @@ url = "https://www.linkedin.com/in/alexander-perlman-a396a654/"
 [[menu.main]]
 identifier = "posts"
 name = "posts"
-url = "posts/"
+url = "/posts"
 weight = 1
 [[menu.main]]
 identifier = "about"
 name = "about"
-url = "about/"
+url = "/about"
 weight = 2
