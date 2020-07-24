@@ -58,7 +58,7 @@ curl https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh
 chmod +x /usr/local/bin/cht.sh
 ```
 
-Once installed, just type `cheat.sh <any question>`. It runs a stack overflow search and returns the response with the highest upvotes, circumventing the need to context switch to your browser.
+Once installed, just type `cht.sh <any question>`. It runs a stack overflow search and returns the response with the highest upvotes, circumventing the need to context switch to your browser.
 
 Here's an example:
 
@@ -80,7 +80,7 @@ print(randint(0, 9))
 Since we're (sort of) on the subject, I heard a funny story from a friend recently.
 
 He complimented a man wearing this t-shirt:
-![](images/shell_script_tshirt.jpg)
+![](/img/shell_script_tshirt.jpg)
 
 "Do you know who I am?" Asked the man.
 

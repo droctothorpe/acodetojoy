@@ -12,3 +12,5 @@ You can find me on:
 
 * [Github](https://github.com/droctothorpe)
 * [LinkedIn](https://www.linkedin.com/in/alexander-perlman-a396a654/)
+
+You can contact me via [email](mailto:mythicalsunlight@gmail.com).
