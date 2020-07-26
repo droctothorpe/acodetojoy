@@ -29,7 +29,7 @@ Let's say you're itching for a specific dish that's not on the menu. Luckily, th
 
 Now anyone can place an order for the new item (a [Custom Resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)). The trouble is, the existing cooks (vanilla controllers) don't know how to prepare the new dish, so a new cook (a custom controller) is hired (deployed). When requests come in for the new order, the new cook responds to them by executing a sequence of steps and, in most cases, delegating some work to the original cooks (vanilla controllers). 
 
-That's all an [Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) is: a new item on the menu and a new cook who knows how to prepare it, or in other words, the combination of a Custom Resource Definition and a custom controller. 
+That's all an [Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) is: a new item on the menu and a new cook who knows how to prepare it, or in other words, the combination of a Custom Resource Definition and a custom controller that watches and responds to changes in the associated custom resources. 
 
 ## Conclusion
 
