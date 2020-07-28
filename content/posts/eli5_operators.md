@@ -15,7 +15,7 @@ If not, I can always stick to my day job.
 
 ## The Kubernetes Restaurant
 
-Let's say that you (a user) just walked into a restaurant named ([Kubernetes](https://kubernetes.io/)). You're seated at a table, given a menu, and, after an appropriate length of time, a charming waiter (the [Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)) takes your order, which consists of several items ([Kubernetes objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/)). 
+Let's say that you (a user) walk into a highly-regarded new restaurant named...[Kubernetes](https://kubernetes.io/). You're seated at a table, given a menu, and, after an appropriate length of time, a charming waiter (the [Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)) takes your order, which consists of several items ([Kubernetes objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/)). 
 
 The waiter adds your order to the order list ([etcd](https://kubernetes.io/docs/concepts/overview/components/#etcd), the Kubernetes data store).
 
