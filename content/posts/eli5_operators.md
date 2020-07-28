@@ -15,13 +15,13 @@ If not, I can always stick to my day job.
 
 ## The Kubernetes Restaurant
 
-You (a user) are seated at a restaurant ([Kubernetes](https://kubernetes.io/)). You're given a menu and, after an appropriate length of time, a charming waiter (the [Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)), takes your order, which consists of several items ([Kubernetes objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/)). 
+Let's say that you (a user) just walked into a restaurant named ([Kubernetes](https://kubernetes.io/)). You're seated at a table, given a menu, and, after an appropriate length of time, a charming waiter (the [Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)) takes your order, which consists of several items ([Kubernetes objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/)). 
 
 The waiter adds your order to the order list ([etcd](https://kubernetes.io/docs/concepts/overview/components/#etcd), the Kubernetes data store).
 
 A grizzled, curmudgeonly cook (a [Kubernetes controller](https://kubernetes.io/docs/concepts/architecture/controller/)) retrieves your order from the order list and prepares the requested dishes.
 
-Note, you don't actually have to know how the food is prepared. All you need to do is state your desire **declaratively**, and the cook (controller) gives you what you want by walking through a sequence of **imperative** steps. That's part of the beauty of Kubernetes. Many other solutions are the equivalent of cooking at home. If you want to focus on eating, not cooking, it can be helpful to offload that imperative overhead. 
+Note, you don't actually have to know how the food is prepared. That's the nice thing about restaurants. Sometimes you feel like eating something, but you don't have the time, skills, or knowledge necessary to prepare it yourself. At this restaurant, all you have to do is state your desire **declaratively**, and the cook (the Kubernetes controller) gives you what you want by walking through a sequence of **imperative** steps. That's a big part of the beauty of Kubernetes. Many other solutions are the equivalent of cooking at home. Kubernetes offloads that imperative burden. 
 
 ## Operators
 
@@ -43,4 +43,4 @@ I'm not feeling very optimistic, but I hope you enjoyed this post. Maybe I'll ad
 
 ![](/img/phippy.png)
 
-Calm the f#*! down Phipphy.
+Calm down, Phipphy!
