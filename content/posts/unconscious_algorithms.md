@@ -12,29 +12,28 @@ algorithm problems. My hope is that it helps you in a situation where you might
 otherwise draw a blank. 
 
 I want to start by stating an obvious but important truth: your brain is
-**amazing**. You are constantly and rapidly solving unimaginably complex problems
-that make even the most challenging FAANG whiteboard problem look like a stroll
-in the park.
+**amazing**. You are constantly and rapidly solving unimaginably complex
+problems that make even the most challenging FAANG whiteboard interview look
+like a stroll in the park. Steven Pinker expresses this idea eloquently in *How
+The Mind Works*:
 
-> “But the gap between robots in imagination and in reality is my starting
-> point, for it shows the first step we must take in knowing ourselves:
-> appreciating the fantastically complex design behind feats of mental life we
-> take for granted. The reason there are no humanlike robots is not that the
-> very idea of a mechanical mind is misguided. It is that the engineering
-> problems that we humans solve as we see and walk and plan and make it through
-> the day are far more challenging than landing on the moon or sequencing the
-> human genome. Nature, once again, has found ingenious solutions that human
-> engineers cannot yet duplicate. When Hamlet says, “What a piece of work is a
-> man! how noble in reason! how infinite in faculty! in form and moving how
-> express and admirable!” we should direct our awe not at Shakespeare or Mozart
-> or Einstein or Kareem Abdul-Jabbar but at a four-year old carrying out a
-> request to put a toy on a shelf.”
+> “...the gap between robots in imagination and in reality...shows the first
+> step we must take in knowing ourselves: appreciating the fantastically complex
+> design behind feats of mental life we take for granted. The reason there are
+> no humanlike robots is not that the very idea of a mechanical mind is
+> misguided. It is that the engineering problems that we humans solve as we see
+> and walk and plan and make it through the day are far more challenging than
+> landing on the moon or sequencing the human genome. Nature, once again, has
+> found ingenious solutions that human engineers cannot yet duplicate. When
+> Hamlet says, “What a piece of work is a man! how noble in reason! how infinite
+> in faculty! in form and moving how express and admirable!” we should direct
+> our awe not at Shakespeare or Mozart or Einstein or Kareem Abdul-Jabbar but at
+> a four-year old carrying out a request to put a toy on a shelf.”
 
-Source: *How the Mind Works* by Steven Pinker.
-
-Pinker goes on to say, “The faculty with which we ponder the world has no
+Pinker goes on to say that the "faculty with which we ponder the world has no
 ability to peer inside itself or our other faculties to see what makes them
-tick.” With all due respect, this claim is hyperbolic. 
+tick.” I beg to differ. In Pinker's defense, he may be using hyperbole to
+accentuate his point.
 
 We are all students of the mind -- simultaneously scientist and lab rat. When we
 make consciousness the subject of consciousness, we can pull back the veil and
@@ -133,7 +132,6 @@ long enough to match the needle in size.
 
 The time and space complexity are both O(n). 
 
-I hope you found this helpful. Remember, your brain is awesome. If you can solve
+I hope you found this helpful. Remember: your brain is amazing. If you can solve
 a problem without code, you already know the solution, it's just a matter of
-unpacking it. 
-
+unboxing it.
