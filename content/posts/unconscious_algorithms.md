@@ -130,7 +130,10 @@ process continues until an equality check succeeds or the index reaches
 `haystack_length - needle_length`, since any slice past that point will not be
 long enough to match the needle in size.  
 
-The time and space complexity are both O(n). 
+The time complexity is O(n).
+
+Space complexity is a bit more complicated. In the worst case
+(`strStr("abcabcdef", "def"`), I believe it's n^2. 
 
 I hope you found this helpful. Remember: your brain is amazing. If you can solve
 a problem without code, you already know the solution, it's just a matter of
