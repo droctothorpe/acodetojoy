@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="droctothorpe ">
+<meta name="description" content="Explainshell I stumbled into this brilliant tidbit in a post by LostCharacter on ycombinator.
+Here&amp;rsquo;s the actual code:
+explain () {  if [ &amp;#34;$#&amp;#34; -eq 0 ]  then  while read -p &amp;#34;Command: &amp;#34; cmd  do  curl -Gs &amp;#34;https://www.mankier.com/api/explain/?cols=&amp;#34;$(tput cols) --data-urlencode &amp;#34;q=$cmd&amp;#34;  done  echo &amp;#34;Bye!&amp;#34;  elif [ &amp;#34;$#&amp;#34; -eq 1 ]  then  curl -Gs &amp;#34;https://www.mankier.com/api/explain/?cols=&amp;#34;$(tput cols) --data-urlencode &amp;#34;q=$1&amp;#34;  else  echo &amp;#34;Usage&amp;#34;  echo &amp;#34;explain interactive mode." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="/posts/2019/07/explain-in-the-membrane/" />
+
+
+    <title>
+        
+            Explain in the membrane :: a code to joy 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.2b86a61ea1adb9174c1ae7ab45b74ecc36f2b10c220b6eee03cea631f2431f86.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Explain in the membrane">
+<meta itemprop="description" content="An exploration of explainshell and cheat.sh, two excellent bash productivity enhancement tools."><meta itemprop="datePublished" content="2019-07-22T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2019-07-22T00:00:00+00:00" />
+<meta itemprop="wordCount" content="404"><meta itemprop="image" content="/"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/"/>
+
+<meta name="twitter:title" content="Explain in the membrane"/>
+<meta name="twitter:description" content="An exploration of explainshell and cheat.sh, two excellent bash productivity enhancement tools."/>
+
+
+
+    <meta property="og:title" content="Explain in the membrane" />
+<meta property="og:description" content="An exploration of explainshell and cheat.sh, two excellent bash productivity enhancement tools." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2019/07/explain-in-the-membrane/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-07-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-07-22T00:00:00+00:00" />
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2019-07-22 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">a code to joy</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/posts">posts</a></li><li><a href="/about">about</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+<main class="post">
+
+  <div class="post-info">
+    <p>
+      
+
+      
+    </p>
+  </div>
+
+  <article>
+    <h1 class="post-title">
+      <a href="/posts/2019/07/explain-in-the-membrane/">Explain in the membrane</a>
+    </h1>
+
+    
+
+    <div class="post-content">
+      <h2 id="explainshell">Explainshell</h2>
+<p>I stumbled into this brilliant tidbit in a <a href="https://news.ycombinator.com/item?id=13994923">post</a> by LostCharacter on ycombinator.</p>
+<p>Here&rsquo;s the actual code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>explain <span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$#<span style="color:#e6db74">&#34;</span> -eq <span style="color:#ae81ff">0</span> <span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> read -p <span style="color:#e6db74">&#34;Command: &#34;</span> cmd
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>            curl -Gs <span style="color:#e6db74">&#34;https://www.mankier.com/api/explain/?cols=&#34;</span><span style="color:#66d9ef">$(</span>tput cols<span style="color:#66d9ef">)</span> --data-urlencode <span style="color:#e6db74">&#34;q=</span>$cmd<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">done</span>
+</span></span><span style="display:flex;"><span>        echo <span style="color:#e6db74">&#34;Bye!&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elif</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$#<span style="color:#e6db74">&#34;</span> -eq <span style="color:#ae81ff">1</span> <span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>        curl -Gs <span style="color:#e6db74">&#34;https://www.mankier.com/api/explain/?cols=&#34;</span><span style="color:#66d9ef">$(</span>tput cols<span style="color:#66d9ef">)</span> --data-urlencode <span style="color:#e6db74">&#34;q=</span>$1<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>        echo <span style="color:#e6db74">&#34;Usage&#34;</span>
+</span></span><span style="display:flex;"><span>        echo <span style="color:#e6db74">&#34;explain                  interactive mode.&#34;</span>
+</span></span><span style="display:flex;"><span>        echo <span style="color:#e6db74">&#34;explain &#39;cmd -o | ...&#39;   one quoted command to explain it.&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>It interacts with <a href="https://www.mankier.com/">www.mankier.com</a> (an awesome website in its own right) to explain what a specified bash command does, and most compellingly, what the specified flags do.</p>
+<p><a href="https://www.explainshell.com/">Explainshell</a> offers a similar service, but staying in the terminal ecosystem is preferable because it alleviates the need to switch contexts and justifies a degree of technical elitism. Browsers are for newbs, after all. You&rsquo;re reading this via Lynx I assume.</p>
+<p>Here&rsquo;s an example of usage and corresponding output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>❯ explain <span style="color:#e6db74">&#39;rsync -a&#39;</span>
+</span></span><span style="display:flex;"><span>rsync<span style="color:#f92672">(</span>1<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>  a fast, versatile, remote <span style="color:#f92672">(</span>and local<span style="color:#f92672">)</span> file-copying tool
+</span></span><span style="display:flex;"><span>-a <span style="color:#f92672">(</span>-A, --ARCHIVE<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>    This is equivalent to -RLPTGOD. It is a quick way of saying you want recursion and want to preserve almost everything <span style="color:#f92672">(</span>with -H being a
+</span></span><span style="display:flex;"><span>    notable omission<span style="color:#f92672">)</span>. The only exception to the above equivalence is when --FILES-FROM is specified, in which <span style="color:#66d9ef">case</span> -R is not implied.
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    Note that -A DOES NOT PRESERVE HARDLINKS, because finding multiply-linked files is expensive. You must separately specify -H.
+</span></span><span style="display:flex;"><span>                                                                                                             https://www.mankier.com/1/rsync
+</span></span></code></pre></div><p>Just add the function to your respective shell profile, and revel in the glory of bashlightenment.</p>
+<h2 id="cheatsh">Cheat.sh</h2>
+<p><a href="https://cheat.sh/">Cheat.sh</a> is very useful. The command line interface can be installed in <a href="https://github.com/chubin/cheat.sh#installation">two steps</a>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh
+</span></span><span style="display:flex;"><span>chmod +x /usr/local/bin/cht.sh
+</span></span></code></pre></div><p>Once installed, just type <code>cht.sh &lt;any question&gt;</code>. It runs a stack overflow search and returns the response with the highest upvotes, circumventing the need to context switch to your browser.</p>
+<p>Here&rsquo;s an example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>❯ cht.sh python random int
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#  python - Generate random integers between 0 and 9</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#  Try:</span>
+</span></span><span style="display:flex;"><span>from random import randint
+</span></span><span style="display:flex;"><span>print<span style="color:#f92672">(</span>randint<span style="color:#f92672">(</span>0, 9<span style="color:#f92672">))</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#  More info:</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#  https://docs.python.org/3/library/random.htmlrandom.randint</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#  [kovshenin] [so/q/3996904] [cc by-sa 3.0]</span>
+</span></span></code></pre></div><h2 id="story-time">Story Time</h2>
+<p>Since we&rsquo;re (sort of) on the subject, I heard a funny story from a friend recently.</p>
+<p>He complimented a man wearing this t-shirt:
+<img src="/img/shell_script_tshirt.jpg" alt=""></p>
+<p>&ldquo;Do you know who I am?&rdquo; Asked the man.</p>
+<p>&ldquo;No,&rdquo; replied my friend.</p>
+<p>&ldquo;I&rsquo;m <a href="https://en.wikipedia.org/wiki/David_Korn_(computer_scientist)">David Korn</a>. I invented the Korn shell. When I say I can replace you with a shell script, I mean it.&rdquo;</p>
+
+    </div>
+  </article>
+
+  <hr />
+
+  <div class="post-info">
+
+    
+    
+    
+
+    <p>
+      
+      
+      2019-07-21
+    </p>
+  </div>
+
+  
+
+
+  
+
+</main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2022</span>
+            
+            
+            <span><a href="/about">droctothorpe</a></span>
+            
+            
+            
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            
+            
+        </div>
+    </div>
+</footer>
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.87b3f38a3db2ce75b475923acfbff5600a03aacd3156e48741ecf79702087c8447b1c14b2d42ac3d33ce3f45bb346feeee85c8751f1510cf5cf92a8a5a36801c.js" integrity="sha512-h7Pzij2yznW0dZI6z7/1YAoDqs0xVuSHQez3lwIIfIRHscFLLUKsPTPOP0W7NG/u7oXIdR8VEM9c&#43;SqKWjaAHA=="></script>
+
+
+
+    </body>
+</html>

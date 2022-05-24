@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="droctothorpe ">
+<meta name="description" content="The goal of this article is to convey an approach to solving data structure and algorithm problems. My hope is that it helps you in a situation where you might otherwise draw a blank.
+I want to start by stating an obvious but important truth: your brain is amazing. You are constantly and rapidly solving unimaginably complex problems that make even the most challenging FAANG whiteboard interview look like a stroll in the park." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="/posts/2020/12/unconscious-algorithms/" />
+
+
+    <title>
+        
+            Unconscious Algorithms :: a code to joy 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.2b86a61ea1adb9174c1ae7ab45b74ecc36f2b10c220b6eee03cea631f2431f86.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Unconscious Algorithms">
+<meta itemprop="description" content="The goal of this article is to convey an approach to solving data structure and algorithm problems. My hope is that it helps you in a situation where you might otherwise draw a blank.
+I want to start by stating an obvious but important truth: your brain is amazing. You are constantly and rapidly solving unimaginably complex problems that make even the most challenging FAANG whiteboard interview look like a stroll in the park."><meta itemprop="datePublished" content="2020-12-23T16:54:37-05:00" />
+<meta itemprop="dateModified" content="2020-12-23T16:54:37-05:00" />
+<meta itemprop="wordCount" content="913"><meta itemprop="image" content="/"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/"/>
+
+<meta name="twitter:title" content="Unconscious Algorithms"/>
+<meta name="twitter:description" content="The goal of this article is to convey an approach to solving data structure and algorithm problems. My hope is that it helps you in a situation where you might otherwise draw a blank.
+I want to start by stating an obvious but important truth: your brain is amazing. You are constantly and rapidly solving unimaginably complex problems that make even the most challenging FAANG whiteboard interview look like a stroll in the park."/>
+
+
+
+    <meta property="og:title" content="Unconscious Algorithms" />
+<meta property="og:description" content="The goal of this article is to convey an approach to solving data structure and algorithm problems. My hope is that it helps you in a situation where you might otherwise draw a blank.
+I want to start by stating an obvious but important truth: your brain is amazing. You are constantly and rapidly solving unimaginably complex problems that make even the most challenging FAANG whiteboard interview look like a stroll in the park." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2020/12/unconscious-algorithms/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-12-23T16:54:37-05:00" />
+<meta property="article:modified_time" content="2020-12-23T16:54:37-05:00" />
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2020-12-23 16:54:37 -0500 EST" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">a code to joy</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/posts">posts</a></li><li><a href="/about">about</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+<main class="post">
+
+  <div class="post-info">
+    <p>
+      
+
+      
+    </p>
+  </div>
+
+  <article>
+    <h1 class="post-title">
+      <a href="/posts/2020/12/unconscious-algorithms/">Unconscious Algorithms</a>
+    </h1>
+
+    
+
+    <div class="post-content">
+      <p>The goal of this article is to convey an approach to solving data structure and
+algorithm problems. My hope is that it helps you in a situation where you might
+otherwise draw a blank.</p>
+<p>I want to start by stating an obvious but important truth: your brain is
+<strong>amazing</strong>. You are constantly and rapidly solving unimaginably complex
+problems that make even the most challenging FAANG whiteboard interview look
+like a stroll in the park. Steven Pinker expresses this idea eloquently in <em>How
+The Mind Works</em>:</p>
+<blockquote>
+<p>“&hellip;the gap between robots in imagination and in reality&hellip;shows the first
+step we must take in knowing ourselves: appreciating the fantastically complex
+design behind feats of mental life we take for granted. The reason there are
+no humanlike robots is not that the very idea of a mechanical mind is
+misguided. It is that the engineering problems that we humans solve as we see
+and walk and plan and make it through the day are far more challenging than
+landing on the moon or sequencing the human genome. Nature, once again, has
+found ingenious solutions that human engineers cannot yet duplicate. When
+Hamlet says, “What a piece of work is a man! how noble in reason! how infinite
+in faculty! in form and moving how express and admirable!” we should direct
+our awe not at Shakespeare or Mozart or Einstein or Kareem Abdul-Jabbar but at
+a four-year old carrying out a request to put a toy on a shelf.”</p>
+</blockquote>
+<p>Pinker goes on to say that the &ldquo;faculty with which we ponder the world has no
+ability to peer inside itself or our other faculties to see what makes them
+tick.” I beg to differ. In Pinker&rsquo;s defense, he may be using hyperbole to
+accentuate his point.</p>
+<p>We are all students of the mind &ndash; simultaneously scientist and lab rat. When we
+make consciousness the subject of consciousness, we can pull back the veil and
+bear witness to the built-in algorithms that are otherwise taken for granted.</p>
+<p>This process can be leveraged to help demystify data structure and algorithm
+questions. Let&rsquo;s walk through a specific problem to illustrate the concept.</p>
+<blockquote>
+<p>Implement strStr().</p>
+<p>Return the index of the first occurrence of needle in haystack, or -1 if needle
+is not part of haystack.</p>
+<p>For the purpose of this problem, we will return 0 when needle is an empty
+string.</p>
+</blockquote>
+<p>Source: <a href="https://leetcode.com/problems/implement-strstr/">https://leetcode.com/problems/implement-strstr/</a></p>
+<p>First and foremost, you need example input. If it&rsquo;s not provided by default,
+either ask for it or define your own inputs.</p>
+<p>In this case, Leetcode provides us with example input:</p>
+<pre tabindex="0"><code>Example 1:
+Input: haystack = &#34;hello&#34;, needle = &#34;ll&#34;
+Output: 2
+</code></pre><p><strong>Resist</strong> the temptation to write code.</p>
+<p>This stage is not about coding, it&rsquo;s about observing and deconstructing how your
+mind arrives at a solution.</p>
+<p>Can you determine, at a glance, whether or not &ldquo;hello&rdquo; contains &ldquo;ll&rdquo;? Of course
+you can. It does. This conclusion seems to materialize instantaneously, doesn&rsquo;t
+it? It also seems to require little to no effort. Take a moment here to
+appreciate just how effective your mind is at this task.</p>
+<p>The operative question is: how? More specifically, how <strong>does</strong> your mind solve it?
+The crux of this article is that you should focus on that question as opposed
+to the categorically different question of: how <strong>should</strong> you solve this?</p>
+<p>When I slow down and observe how my mind tackles this problem, I arrive at the
+following deconstruction. It seems as if my mind identifies the length of the
+needle, then iterates through the haystack, making needle-sized chunks as it
+goes, comparing each chunk to the needle for equality.</p>
+<p>Practically speaking, it looks something like this:</p>
+<p>Does &ldquo;he&rdquo; equal &ldquo;ll&rdquo;? No.</p>
+<p>Does &ldquo;el&rdquo; equal &ldquo;ll&rdquo;? No.</p>
+<p>Does &ldquo;ll&rdquo; equal &ldquo;ll&rdquo;? Yes!</p>
+<p>Now it&rsquo;s just a matter of identifying the matching index, which is 2.</p>
+<p>Simple enough, right?</p>
+<p>We can probably dissect it further using three pointers but for the sake of
+brevity I&rsquo;ll sidestep the added complexity.</p>
+<p>Now that we have a proposed explanation for how the mind solves this problem,
+translating it into code is comparatively trivial.</p>
+<p>Avoid premature optimization at this stage. Sometimes, the mind&rsquo;s approach is
+efficient; other times it is inefficient and you can improve on it. Either way,
+defer optimization. First make it work, then make it better. An inefficient
+solution is better than no solution.</p>
+<p>Here is a pretty simple implementation of the process outlined above in Python.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">strStr</span>(self, haystack: str, needle: str) <span style="color:#f92672">-&gt;</span> int:
+</span></span><span style="display:flex;"><span>        haystack_length <span style="color:#f92672">=</span> len(haystack) <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        needle_length <span style="color:#f92672">=</span> len(needle) <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> i <span style="color:#f92672">&lt;=</span> haystack_length <span style="color:#f92672">-</span> needle_length: 
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> haystack[i:i <span style="color:#f92672">+</span> needle_length <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">==</span> needle:
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> i
+</span></span><span style="display:flex;"><span>            i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><p>In a nutshell, this implementation starts at the first element of haystack,
+creates a needle-sized slice, and compares the slice to the needle for equality.
+If equality is confirmed, it returns the index. If not, the index is iterated
+and the slice and comparison is repeated starting from the next element. This
+process continues until an equality check succeeds or the index reaches
+<code>haystack_length - needle_length</code>, since any slice past that point will not be
+long enough to match the needle in size.</p>
+<p>The time complexity is O(n).</p>
+<p>Space complexity is a bit more complicated. In the worst case
+(<code>strStr(&quot;abcabcdef&quot;, &quot;def&quot;</code>), I believe it&rsquo;s n^2.</p>
+<p>I hope you found this helpful. Remember: your brain is amazing. If you can solve
+a problem without code, you already know the solution, it&rsquo;s just a matter of
+unboxing it.</p>
+
+    </div>
+  </article>
+
+  <hr />
+
+  <div class="post-info">
+
+    
+    
+    
+
+    <p>
+      
+      
+      2020-12-23
+    </p>
+  </div>
+
+  
+
+
+  
+
+</main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2022</span>
+            
+            
+            <span><a href="/about">droctothorpe</a></span>
+            
+            
+            
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            
+            
+        </div>
+    </div>
+</footer>
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.87b3f38a3db2ce75b475923acfbff5600a03aacd3156e48741ecf79702087c8447b1c14b2d42ac3d33ce3f45bb346feeee85c8751f1510cf5cf92a8a5a36801c.js" integrity="sha512-h7Pzij2yznW0dZI6z7/1YAoDqs0xVuSHQez3lwIIfIRHscFLLUKsPTPOP0W7NG/u7oXIdR8VEM9c&#43;SqKWjaAHA=="></script>
+
+
+
+    </body>
+</html>

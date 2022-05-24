@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="droctothorpe ">
+<meta name="description" content="I recently wrote a CLI using Cobra, a widely adopted CLI framework for Golang that&amp;rsquo;s used in Kubectl, Docker, Terraform, Hugo, and other industry-standard CLIs.
+I wanted to use Logrus, a highly regarded structured logging framework for Go. I wanted informative, colorized, leveled logs, but I also wanted to be able to log simple, user-facing output without all of the bells and whistles. I was surprised at the lack of documentation around this simple goal." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="/posts/2020/07/leveled-logs-with-cobra-and-logrus/" />
+
+
+    <title>
+        
+            Leveled logs with Cobra and Logrus :: a code to joy 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.2b86a61ea1adb9174c1ae7ab45b74ecc36f2b10c220b6eee03cea631f2431f86.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Leveled logs with Cobra and Logrus">
+<meta itemprop="description" content="How to implement leveled logs for a Cobra CLI using the Logrus framework."><meta itemprop="datePublished" content="2020-07-23T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-07-23T00:00:00+00:00" />
+<meta itemprop="wordCount" content="257"><meta itemprop="image" content="/"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/"/>
+
+<meta name="twitter:title" content="Leveled logs with Cobra and Logrus"/>
+<meta name="twitter:description" content="How to implement leveled logs for a Cobra CLI using the Logrus framework."/>
+
+
+
+    <meta property="og:title" content="Leveled logs with Cobra and Logrus" />
+<meta property="og:description" content="How to implement leveled logs for a Cobra CLI using the Logrus framework." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/2020/07/leveled-logs-with-cobra-and-logrus/" /><meta property="og:image" content="/"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-07-23T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-07-23T00:00:00+00:00" />
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2020-07-23 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">a code to joy</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/posts">posts</a></li><li><a href="/about">about</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+<main class="post">
+
+  <div class="post-info">
+    <p>
+      
+
+      
+    </p>
+  </div>
+
+  <article>
+    <h1 class="post-title">
+      <a href="/posts/2020/07/leveled-logs-with-cobra-and-logrus/">Leveled logs with Cobra and Logrus</a>
+    </h1>
+
+    
+
+    <div class="post-content">
+      <p>I recently wrote a CLI using <a href="https://github.com/spf13/cobra">Cobra</a>, a widely adopted CLI framework for Golang that&rsquo;s used in Kubectl, Docker, Terraform, Hugo, and other industry-standard CLIs.</p>
+<p>I wanted to use <a href="https://github.com/sirupsen/logrus">Logrus</a>, a highly regarded structured logging framework for Go. I wanted informative, colorized, leveled logs, but I also wanted to be able to log simple, user-facing output without all of the bells and whistles. I was surprised at the lack of documentation around this simple goal.</p>
+<p>Here&rsquo;s one way to solve this problem.</p>
+<p>Create a file called <code>logging.go</code> in your <code>cmd</code> package:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">cmd</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">log</span> <span style="color:#e6db74">&#34;github.com/sirupsen/logrus&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;github.com/spf13/cobra&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">debug</span> <span style="color:#66d9ef">bool</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">PlainFormatter</span> <span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> (<span style="color:#a6e22e">f</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">PlainFormatter</span>) <span style="color:#a6e22e">Format</span>(<span style="color:#a6e22e">entry</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Entry</span>) ([]<span style="color:#66d9ef">byte</span>, <span style="color:#66d9ef">error</span>) {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> []byte(<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Sprintf</span>(<span style="color:#e6db74">&#34;%s\n&#34;</span>, <span style="color:#a6e22e">entry</span>.<span style="color:#a6e22e">Message</span>)), <span style="color:#66d9ef">nil</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">toggleDebug</span>(<span style="color:#a6e22e">cmd</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">cobra</span>.<span style="color:#a6e22e">Command</span>, <span style="color:#a6e22e">args</span> []<span style="color:#66d9ef">string</span>) {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">debug</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Info</span>(<span style="color:#e6db74">&#34;Debug logs enabled&#34;</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">SetLevel</span>(<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">DebugLevel</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">SetFormatter</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">TextFormatter</span>{})
+</span></span><span style="display:flex;"><span>	} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">plainFormatter</span> <span style="color:#f92672">:=</span> new(<span style="color:#a6e22e">PlainFormatter</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">SetFormatter</span>(<span style="color:#a6e22e">plainFormatter</span>)
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Add a <code>PreRun</code> to each of your Cobra commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">addCmd</span> = <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">cobra</span>.<span style="color:#a6e22e">Command</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">PreRun</span>: <span style="color:#a6e22e">toggleDebug</span>, <span style="color:#75715e">// This. 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">Run</span>: <span style="color:#66d9ef">func</span>(<span style="color:#a6e22e">cmd</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">cobra</span>.<span style="color:#a6e22e">Command</span>, <span style="color:#a6e22e">args</span> []<span style="color:#66d9ef">string</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Subcommand logic goes here.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Add a global persistent flag to <code>root.go</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">init</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">rootCmd</span>.<span style="color:#a6e22e">PersistentFlags</span>().<span style="color:#a6e22e">BoolVarP</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">debug</span>, <span style="color:#e6db74">&#34;debug&#34;</span>, <span style="color:#e6db74">&#34;d&#34;</span>, <span style="color:#66d9ef">false</span>, <span style="color:#e6db74">&#34;verbose logging&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>It&rsquo;s as simple as that. Now you can reap the benefits of flag-toggled leveled logs. Use the following invocations anywhere in your code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Info</span>()
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Debug</span>()
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Warning</span>()
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Error</span>()
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatal</span>()
+</span></span></code></pre></div><p>Debug logs are suppressed by default. You can pass the <code>--debug</code> or <code>-d</code> flag to any command to print more verbose, colorized debug logs, which are super helpful when troubleshooting.</p>
+<p>I hope you found this helpful.</p>
+
+    </div>
+  </article>
+
+  <hr />
+
+  <div class="post-info">
+
+    
+    
+    
+
+    <p>
+      
+      
+      2020-07-22
+    </p>
+  </div>
+
+  
+
+
+  
+
+</main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2022</span>
+            
+            
+            <span><a href="/about">droctothorpe</a></span>
+            
+            
+            
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            
+            
+        </div>
+    </div>
+</footer>
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.87b3f38a3db2ce75b475923acfbff5600a03aacd3156e48741ecf79702087c8447b1c14b2d42ac3d33ce3f45bb346feeee85c8751f1510cf5cf92a8a5a36801c.js" integrity="sha512-h7Pzij2yznW0dZI6z7/1YAoDqs0xVuSHQez3lwIIfIRHscFLLUKsPTPOP0W7NG/u7oXIdR8VEM9c&#43;SqKWjaAHA=="></script>
+
+
+
+    </body>
+</html>

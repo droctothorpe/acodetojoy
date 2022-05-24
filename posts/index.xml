@@ -1,0 +1,755 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on a code to joy</title>
+        <link>/posts/</link>
+        <description>Recent content in Posts on a code to joy</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate>
+        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>In Obscurity</title>
+            <link>/posts/2022/05/in-obscurity/</link>
+            <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2022/05/in-obscurity/</guid>
+            <description>I just read a delightful anecdote about Isaac Newton in A Short History of Nearly Everything by Bill Bryson (which is refreshingly irreverent):
+ As a student, frustrated by the limitations of conventional mathematics, he [Newton] invented an entirely new form, the calculus, but then told no one about it for twenty-seven years. In like manner, he did work in optics that transformed our understanding of light and laid the foundation for the science of spectroscopy, and again chose not to share the results for three decades.</description>
+            <content type="html"><![CDATA[<p>I just read a delightful anecdote about Isaac Newton in <em>A Short History of
+Nearly Everything</em> by Bill Bryson (which is refreshingly irreverent):</p>
+<blockquote>
+<p>As a student, frustrated by the limitations of conventional mathematics, he
+[Newton] invented an entirely new form, the calculus, but then told no one
+about it for <strong>twenty-seven years</strong>. In like manner, he did work in optics
+that transformed our understanding of light and laid the foundation for the
+science of spectroscopy, and again chose not to share the results for three
+decades.</p>
+</blockquote>
+<p>Emphasis mine. Twenty-seven years! That&rsquo;s an unfathomable level of restraint to
+our modern sensibilities, in a time when people can&rsquo;t enjoy lunch, let alone
+invent Calculus, without tweeting about it.</p>
+<p>I tweet, therefore I am.</p>
+<p>That got me thinking about other creatives who withheld the fruits of their
+labor from the world at large.</p>
+<blockquote>
+<p>Kafka left his work, both published and unpublished, to his friend and
+literary executor, Max Brod, with explicit instructions that it should be
+destroyed on Kafka’s death; Kafka wrote: “Dearest Max, my last request:
+Everything I leave behind me &hellip; in the way of diaries, manuscripts, letters
+(my own and others’), sketches, and so on, is to be burned unread.&quot; Brod
+ignored this request and published the novels and collected works between 1925
+and 1935.</p>
+<p>&ndash; <!-- raw HTML omitted --><a href="https://en.wikipedia.org/wiki/Franz_Kafka#Max_Brod">https://en.wikipedia.org/wiki/Franz_Kafka#Max_Brod</a><!-- raw HTML omitted --></p>
+</blockquote>
+<p>No one&ndash;<em>no one</em>&ndash;would know about Franz Kafka if Max Brod did not defy his
+dying wishes.</p>
+<p>Then there&rsquo;s Henry Darger:</p>
+<blockquote>
+<p>&hellip;an American writer, novelist and artist who worked as a hospital custodian
+in Chicago, Illinois. He has become famous for his posthumously discovered
+<strong>15,145</strong>-page fantasy novel manuscript called <em>The Story of the Vivian
+Girls, in What Is Known as the Realms of the Unreal, of the
+Glandeco-Angelinian War Storm, Caused by the Child Slave Rebellion</em>, along
+with several hundred drawings and watercolor illustrations for the story.</p>
+<p>&ndash; <!-- raw HTML omitted --><a href="https://en.wikipedia.org/wiki/Henry_Darger">https://en.wikipedia.org/wiki/Henry_Darger</a><!-- raw HTML omitted --></p>
+</blockquote>
+<p>His work belongs to a category of obscure, and often post-humously discovered,
+<a href="https://en.wikipedia.org/wiki/Outsider_art">outsider art</a>.</p>
+<p>I wonder to what extent instantaneous &ldquo;publication&rdquo; has adversely impacted our
+ability to work on something, in obscurity, <em>for it&rsquo;s own sake</em>.</p>
+<p>What would you create <em>even if no one ever saw it</em>?</p>
+<p>That&rsquo;s an interesting, clarifying question isn&rsquo;t it?</p>
+<p>I&rsquo;m troubled by my inability to answer it.</p>
+<p>Newton, Kafka, and Darger certainly could.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>A tail unto lions</title>
+            <link>/posts/2021/10/a-tail-unto-lions/</link>
+            <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2021/10/a-tail-unto-lions/</guid>
+            <description>&amp;hellip;be a tail unto lions, and not a head unto foxes.
+&amp;ndash; Ethics of our Fathers, 4:15
+ I heard a remarkable anecdote on a podcast the other day.
+ Admired for her beauty, Jennie Jerome (Winston Churchill’s mother) glided through the loftiest social circles in Great Britain. Once, on consecutive nights, Ms. Jerome dined with England’s premier politicians: Prime Minister Benjamin Disraeli and his chief rival, William Gladstone. When questioned about her impressions of the two men, Ms.</description>
+            <content type="html"><![CDATA[<blockquote>
+<p>&hellip;be a tail unto lions, and not a head unto foxes.</p>
+<p>&ndash; Ethics of our Fathers, 4:15</p>
+</blockquote>
+<p>I heard a remarkable anecdote on a podcast the other day.</p>
+<blockquote>
+<p>Admired for her beauty, Jennie Jerome (Winston Churchill’s mother) glided
+through the loftiest social circles in Great Britain. Once, on consecutive
+nights, Ms. Jerome dined with England’s premier politicians: Prime Minister
+Benjamin Disraeli and his chief rival, William Gladstone. When questioned
+about her impressions of the two men, Ms. Jerome made the following
+observation:</p>
+<p>“When I left the dining room after sitting next to Gladstone, I thought he was
+the cleverest man in England. But when I sat next to Disraeli I left feeling
+that I was the cleverest woman.”</p>
+</blockquote>
+<p>Several days after hearing this, I participated in a meeting with two managers who could not
+more effectively exemplify the contrast between these two approaches. Since
+then, I&rsquo;ve made a concerted effort to adopt the Disraeli approach, and it&rsquo;s been
+nothing short of revelatory.</p>
+<p>For example, in a recent meeting, two brilliant teammates engaged in a prolonged
+discussion about whether to write an API in Python or Golang. They both provided
+excellent justifications despite taking opposing and increasingly entrenched
+positions. Finally, one of them addressed me as a resident senior engineer and
+asked what I thought about the Python vs Go debate.</p>
+<p>&ldquo;I could go either way because I&rsquo;m equally terrible at both,&rdquo; I
+replied.</p>
+<p>Everyone laughed and I could feel the tension evaporate.</p>
+<p>It feels good to play that kind of role on a team. It feels good to promote down
+to earth collaboration, to wear my ignorance on my sleeve and demonstrate, by
+example, that it&rsquo;s okay to not know things. It feels good to work hard, but
+laugh, particularly at myself. At the end of the day, if we&rsquo;re not having fun,
+then we&rsquo;re doing something wrong.</p>
+<p>I&rsquo;ve worked with people who have made me feel brilliant and people who have made
+me feel dumb, so I know what it&rsquo;s like to be on both sides of that equation. I&rsquo;d
+like to be the kind of person who makes others feel brilliant.</p>
+<p>Being a dipstick helps.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Unconscious Algorithms</title>
+            <link>/posts/2020/12/unconscious-algorithms/</link>
+            <pubDate>Wed, 23 Dec 2020 16:54:37 -0500</pubDate>
+            
+            <guid>/posts/2020/12/unconscious-algorithms/</guid>
+            <description>The goal of this article is to convey an approach to solving data structure and algorithm problems. My hope is that it helps you in a situation where you might otherwise draw a blank.
+I want to start by stating an obvious but important truth: your brain is amazing. You are constantly and rapidly solving unimaginably complex problems that make even the most challenging FAANG whiteboard interview look like a stroll in the park.</description>
+            <content type="html"><![CDATA[<p>The goal of this article is to convey an approach to solving data structure and
+algorithm problems. My hope is that it helps you in a situation where you might
+otherwise draw a blank.</p>
+<p>I want to start by stating an obvious but important truth: your brain is
+<strong>amazing</strong>. You are constantly and rapidly solving unimaginably complex
+problems that make even the most challenging FAANG whiteboard interview look
+like a stroll in the park. Steven Pinker expresses this idea eloquently in <em>How
+The Mind Works</em>:</p>
+<blockquote>
+<p>“&hellip;the gap between robots in imagination and in reality&hellip;shows the first
+step we must take in knowing ourselves: appreciating the fantastically complex
+design behind feats of mental life we take for granted. The reason there are
+no humanlike robots is not that the very idea of a mechanical mind is
+misguided. It is that the engineering problems that we humans solve as we see
+and walk and plan and make it through the day are far more challenging than
+landing on the moon or sequencing the human genome. Nature, once again, has
+found ingenious solutions that human engineers cannot yet duplicate. When
+Hamlet says, “What a piece of work is a man! how noble in reason! how infinite
+in faculty! in form and moving how express and admirable!” we should direct
+our awe not at Shakespeare or Mozart or Einstein or Kareem Abdul-Jabbar but at
+a four-year old carrying out a request to put a toy on a shelf.”</p>
+</blockquote>
+<p>Pinker goes on to say that the &ldquo;faculty with which we ponder the world has no
+ability to peer inside itself or our other faculties to see what makes them
+tick.” I beg to differ. In Pinker&rsquo;s defense, he may be using hyperbole to
+accentuate his point.</p>
+<p>We are all students of the mind &ndash; simultaneously scientist and lab rat. When we
+make consciousness the subject of consciousness, we can pull back the veil and
+bear witness to the built-in algorithms that are otherwise taken for granted.</p>
+<p>This process can be leveraged to help demystify data structure and algorithm
+questions. Let&rsquo;s walk through a specific problem to illustrate the concept.</p>
+<blockquote>
+<p>Implement strStr().</p>
+<p>Return the index of the first occurrence of needle in haystack, or -1 if needle
+is not part of haystack.</p>
+<p>For the purpose of this problem, we will return 0 when needle is an empty
+string.</p>
+</blockquote>
+<p>Source: <a href="https://leetcode.com/problems/implement-strstr/">https://leetcode.com/problems/implement-strstr/</a></p>
+<p>First and foremost, you need example input. If it&rsquo;s not provided by default,
+either ask for it or define your own inputs.</p>
+<p>In this case, Leetcode provides us with example input:</p>
+<pre tabindex="0"><code>Example 1:
+Input: haystack = &#34;hello&#34;, needle = &#34;ll&#34;
+Output: 2
+</code></pre><p><strong>Resist</strong> the temptation to write code.</p>
+<p>This stage is not about coding, it&rsquo;s about observing and deconstructing how your
+mind arrives at a solution.</p>
+<p>Can you determine, at a glance, whether or not &ldquo;hello&rdquo; contains &ldquo;ll&rdquo;? Of course
+you can. It does. This conclusion seems to materialize instantaneously, doesn&rsquo;t
+it? It also seems to require little to no effort. Take a moment here to
+appreciate just how effective your mind is at this task.</p>
+<p>The operative question is: how? More specifically, how <strong>does</strong> your mind solve it?
+The crux of this article is that you should focus on that question as opposed
+to the categorically different question of: how <strong>should</strong> you solve this?</p>
+<p>When I slow down and observe how my mind tackles this problem, I arrive at the
+following deconstruction. It seems as if my mind identifies the length of the
+needle, then iterates through the haystack, making needle-sized chunks as it
+goes, comparing each chunk to the needle for equality.</p>
+<p>Practically speaking, it looks something like this:</p>
+<p>Does &ldquo;he&rdquo; equal &ldquo;ll&rdquo;? No.</p>
+<p>Does &ldquo;el&rdquo; equal &ldquo;ll&rdquo;? No.</p>
+<p>Does &ldquo;ll&rdquo; equal &ldquo;ll&rdquo;? Yes!</p>
+<p>Now it&rsquo;s just a matter of identifying the matching index, which is 2.</p>
+<p>Simple enough, right?</p>
+<p>We can probably dissect it further using three pointers but for the sake of
+brevity I&rsquo;ll sidestep the added complexity.</p>
+<p>Now that we have a proposed explanation for how the mind solves this problem,
+translating it into code is comparatively trivial.</p>
+<p>Avoid premature optimization at this stage. Sometimes, the mind&rsquo;s approach is
+efficient; other times it is inefficient and you can improve on it. Either way,
+defer optimization. First make it work, then make it better. An inefficient
+solution is better than no solution.</p>
+<p>Here is a pretty simple implementation of the process outlined above in Python.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">strStr</span>(self, haystack: str, needle: str) <span style="color:#f92672">-&gt;</span> int:
+</span></span><span style="display:flex;"><span>        haystack_length <span style="color:#f92672">=</span> len(haystack) <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        needle_length <span style="color:#f92672">=</span> len(needle) <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> i <span style="color:#f92672">&lt;=</span> haystack_length <span style="color:#f92672">-</span> needle_length: 
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> haystack[i:i <span style="color:#f92672">+</span> needle_length <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">==</span> needle:
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> i
+</span></span><span style="display:flex;"><span>            i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><p>In a nutshell, this implementation starts at the first element of haystack,
+creates a needle-sized slice, and compares the slice to the needle for equality.
+If equality is confirmed, it returns the index. If not, the index is iterated
+and the slice and comparison is repeated starting from the next element. This
+process continues until an equality check succeeds or the index reaches
+<code>haystack_length - needle_length</code>, since any slice past that point will not be
+long enough to match the needle in size.</p>
+<p>The time complexity is O(n).</p>
+<p>Space complexity is a bit more complicated. In the worst case
+(<code>strStr(&quot;abcabcdef&quot;, &quot;def&quot;</code>), I believe it&rsquo;s n^2.</p>
+<p>I hope you found this helpful. Remember: your brain is amazing. If you can solve
+a problem without code, you already know the solution, it&rsquo;s just a matter of
+unboxing it.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Expedite Golang builds in Docker</title>
+            <link>/posts/2020/08/expedite-golang-builds-in-docker/</link>
+            <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/08/expedite-golang-builds-in-docker/</guid>
+            <description>The problem I was recently working on a Golang API that imported the Kubernetes client. I implemented Skaffold to streamline the local development cycle, but rebuilds after source code changes consistently took 50 seconds, no matter how small the change. That&amp;rsquo;s unacceptably long, in my opinion, so I set about the task of improving the development cycle by optimizing the Docker build time.
+Downloading dependencies After passing the -v flag to the go build command, I noticed that a significant length of time was spent fetching the dependencies.</description>
+            <content type="html"><![CDATA[<h2 id="the-problem">The problem</h2>
+<p>I was recently working on a Golang API that imported the <a href="https://github.com/kubernetes/client-go">Kubernetes client</a>. I implemented <a href="https://skaffold.dev/">Skaffold</a> to streamline the local development cycle, but rebuilds after source code changes consistently took <strong>50 seconds</strong>, no matter how small the change. That&rsquo;s unacceptably long, in my opinion, so I set about the task of improving the development cycle by optimizing the Docker build time.</p>
+<h2 id="downloading-dependencies">Downloading dependencies</h2>
+<p>After passing the <code>-v</code> flag to the <code>go build</code> command, I noticed that a significant length of time was spent fetching the dependencies.</p>
+<p>There are two ways to address this problem.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Docker" data-lang="Docker"><span style="display:flex;"><span><span style="color:#66d9ef">COPY</span> go.mod go.sum .<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> go mod download<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>...<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">COPY</span> . .<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> go build .<span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>In a nutshell, by copying <code>go.mod</code> and <code>go.sum</code> then running <code>go mod download</code>, you&rsquo;re consolidating the dependency retrieval into a standalone Docker image layer which gets cached. Subsequent rebuilds will leverage the cache, except in the comparatively rare exception that you make changes to <code>go.mod</code> or <code>go.sum</code>.</p>
+<p>If you&rsquo;re vendoring, committing your <code>vendor</code> directory to source, and using Go v1.14 or greater, you can use the vendor directory instead of re-downloading your dependencies:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Docker" data-lang="Docker"><span style="display:flex;"><span><span style="color:#66d9ef">COPY</span> . . <span style="color:#75715e"># Including the vendor directory</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ENV</span> GO111MODULE<span style="color:#f92672">=</span>on
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">RUN</span> go build .<span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><h2 id="compilation">Compilation</h2>
+<p>This improved my build time by about 10-15 seconds, but it was still unacceptably long.</p>
+<p>The problem was that my dependencies (and their dependencies) were pretty large in scope and took a long time to compile.</p>
+<h2 id="buildkit-to-the-rescue">BuildKit to the rescue</h2>
+<p>I explored a few options, including compiling only the dependencies in a Docker image layer and mounting my GOCACHE to the build, but the solution turned out to be pleasantly simple.</p>
+<p>Enable <a href="https://docs.docker.com/develop/develop-images/build_enhancements/">BuildKit</a> by running:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>export DOCKER_BUILDKIT<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><p>and adding:</p>
+<pre tabindex="0"><code># syntax = docker/dockerfile:1-experimental
+</code></pre><p>to the top of your Dockerfile, then preface your <code>go build</code> command in the Dockerfile as follows:</p>
+<pre tabindex="0"><code>RUN --mount=type=cache,target=/root/.cache/go-build \
+go build
+</code></pre><h2 id="how-it-works">How it works</h2>
+<p>In a nutshell, the mount implements a cache that persists across multiple builds. After an initial, extended build, subsequent builds leverage the cache and are therefore much more efficient.</p>
+<p>This <em>dramatically</em> reduced my build time.</p>
+<p>Before enabling the cache:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>❯ docker build .
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>+<span style="color:#f92672">]</span> Building 47.8s <span style="color:#f92672">(</span>15/15<span style="color:#f92672">)</span> FINISHED 
+</span></span></code></pre></div><p>After enabling the cache:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>❯ docker build .
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>+<span style="color:#f92672">]</span> Building 7.6s <span style="color:#f92672">(</span>15/15<span style="color:#f92672">)</span> FINISHED 
+</span></span></code></pre></div><p>That&rsquo;s a <strong>40.2</strong> second reduction in build time. Not too shabby!</p>
+<p>Side note, I&rsquo;m using a <a href="https://docs.docker.com/develop/develop-images/multistage-build/">multistage build</a>, but this advice is equally applicable regardless of stage count.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>The coin change problem</title>
+            <link>/posts/2020/07/the-coin-change-problem/</link>
+            <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/07/the-coin-change-problem/</guid>
+            <description>The problem https://leetcode.com/problems/coin-change/
+ You are given coins of different denominations and a total amount of money. Write a function to compute the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.
+ Explanatory matrix Given the following input:
+coins = 1, 2, 5 amount = 11 We can construct an explanatory matrix.</description>
+            <content type="html"><![CDATA[<h2 id="the-problem">The problem</h2>
+<p><a href="https://leetcode.com/problems/coin-change/">https://leetcode.com/problems/coin-change/</a></p>
+<blockquote>
+<p>You are given coins of different denominations and a total amount of money. Write a function to compute the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.</p>
+</blockquote>
+<h2 id="explanatory-matrix">Explanatory matrix</h2>
+<p>Given the following input:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>coins <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>amount <span style="color:#f92672">=</span> <span style="color:#ae81ff">11</span>
+</span></span></code></pre></div><p>We can construct an explanatory matrix.</p>
+<table>
+<thead>
+<tr>
+<th>COIN</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+<th>11</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+</tr>
+<tr>
+<td>2, 1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>3</td>
+<td>4</td>
+<td>4</td>
+<td>5</td>
+<td>5</td>
+<td>6</td>
+</tr>
+<tr>
+<td>5, 2, 1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p>The first column corresponds to the coin denominations. Every subsequent column corresponds to total amount. The table fields indicate how many coins of the corresponding denominations are required to reach the total amount.</p>
+<p>Once this matrix exists, returning an answer is as simple as looking up the intersection of the amount (11) and the denominations (1,2,5) which returns 3.</p>
+<p>The trick is knowing how to construct the matrix.</p>
+<h2 id="a-bottom-up-dynamic-solution">A bottom-up dynamic solution</h2>
+<p>The explanatory matrix illustrates the underlying principle, but the ensuing implementation relies on an array instead of a matrix. This is made possible by a reoccuring invocation of the <code>min</code> function.</p>
+<p>The array is initialized with a length of <code>amount + 1</code>, which is 12 given the input. The extra element is required for the 0 column/amount. The remaining elements are initialized to <code>amount + 1</code>, i.e. 12.</p>
+<p>In the words of Leonid Vulakh:</p>
+<blockquote>
+<p>For you, this is infinity.</p>
+</blockquote>
+<p>Since no value will ever reach or exceed 12, it will never be returned in the ensuing <code>min</code> invocations. 0 and -1 do not work as initialization values, because they will always be the minimum. <code>None</code> doesn&rsquo;t work because it cannot be compared to an integer.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Guardian against the edge case of amount being 0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> amount <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Construct the array</span>
+</span></span><span style="display:flex;"><span>dp <span style="color:#f92672">=</span> [amount <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">*</span> (amount <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>dp[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span></code></pre></div><p>The resulting array looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>[<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>]
+</span></span></code></pre></div><p>Now comes the tricky part. There are two nested loops.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(amount <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> coin <span style="color:#f92672">in</span> coins:
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> coin <span style="color:#f92672">&lt;=</span> index:
+</span></span><span style="display:flex;"><span>          dp[i] <span style="color:#f92672">=</span> min(dp[i], dp[i <span style="color:#f92672">-</span> coin] <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)
+</span></span></code></pre></div><p>The fourth line is deceptively complex. The best way to wrap your head around it is to walk through the iterations. Let&rsquo;s do that together.</p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>for i in range(amount + 1)</code></td>
+<td>i = 0</td>
+</tr>
+<tr>
+<td><code>for coin in coins</code></td>
+<td>coin = 1</td>
+</tr>
+<tr>
+<td><code>if coin &lt;= i</code></td>
+<td><code>1 &lt;= 0</code> is false so we do not update the value at the 0th index; this holds true for all three denominations</td>
+</tr>
+<tr>
+<td>Next iteration of outer loop</td>
+<td></td>
+</tr>
+<tr>
+<td><code>for i in range(amount + 1)</code></td>
+<td>i = 1 (we&rsquo;ve moved on to the next iteration of the outer loop)</td>
+</tr>
+<tr>
+<td><code>for coin in coins</code></td>
+<td>coin = 1</td>
+</tr>
+<tr>
+<td><code>if coin &lt;= i</code></td>
+<td><code>1 &lt;= 1</code> is true</td>
+</tr>
+<tr>
+<td><code>dp[i] = min(dp[i], dp[i - coin] + 1)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>min(dp[1], dp[1-1] + 1)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>min(12, dp[0] + 1)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>min(12, 0 + 1)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>min(12, 1)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>1</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><code>min(dp[i], dp[i - coin] + 1)</code> boils down to <code>min(12, 1)</code>. Since <code>1 &lt; 12</code> (in other news, the sky is blue), we update the value at the first index to 1.</p>
+<p>The updated array looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>[<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>]
+</span></span></code></pre></div><p>Things get more interesting in the next outer loop.</p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>for i in range(amount + 1)</code></td>
+<td>i = 2</td>
+</tr>
+<tr>
+<td><code>for coin in coins</code></td>
+<td>coin = 1</td>
+</tr>
+<tr>
+<td><code>if coin &lt;= i</code></td>
+<td><code>1 &lt;= 2</code> is true</td>
+</tr>
+<tr>
+<td><code>dp[i] = min(dp[i], dp[i - coin] + 1</code>)</td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>min(dp[2], dp[2-1] + 1)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>min(12, dp[1] + 1)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>min(12, 1 + 1)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>min(12, 2)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>2</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Next iteration of inner loop</td>
+<td></td>
+</tr>
+<tr>
+<td><code>for coin in coins</code></td>
+<td>coin = 2</td>
+</tr>
+<tr>
+<td><code>if coin &lt;= i</code></td>
+<td><code>2 &lt;= 2</code> is true</td>
+</tr>
+<tr>
+<td><code>dp[i] = min(dp[i], dp[i - coin] + 1</code>)</td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>min(dp[2], dp[2 - 2] + 1)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>min(2, dp[0] + 1)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>min(2, 0 + 1)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>min(2, 1)</code></td>
+<td></td>
+</tr>
+<tr>
+<td>= <code>1</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Next iteration of inner loop</td>
+<td></td>
+</tr>
+<tr>
+<td><code>for coin in coins</code></td>
+<td>coin = 5</td>
+</tr>
+<tr>
+<td><code>if coin &lt;= i</code></td>
+<td><code>5 &lt;= 2</code> is false; the inner loops are complete</td>
+</tr>
+</tbody>
+</table>
+<p>The algorithm correctly determines that we can reach an amount of 2 with 2 (x 1) coins, but when it iterates the inner loop, the condition evaluates as true; consequently, the algorithm determines that we can actually reach the amount of 2 with just 1 (x 2) coin.</p>
+<p>Essentially, for each amount, we explore progressively higher denominations. If you think about it in terms of the explanatory matrix, we move right (with each outer loop), then explore each row in the given column (with each inner loop).</p>
+<p>Let&rsquo;s clarify what <code>dp[i - coin] + 1</code> does, because in many ways, it&rsquo;s the heart of this solution.</p>
+<p>For a specified amount, we can lookup how many coins it takes to get that amount minus the current coin, then just add one to the total number of coins (for the current coin).</p>
+<p>In this specific context, we&rsquo;re trying to reach an amount of 2 and the current coin is 2. <code>i - coin</code> equals 0, so we look up 0 in the <code>dp</code> array, which returns 0, then we add 1 to the total number of coins (which represents the 2 coin) to arrive at a total of 1. The call to <code>min</code> helps us prioritize the more efficient way of reaching an amount of 2: it&rsquo;s better to use 1 x 2 coin than 2 x 1 coins.</p>
+<p>The updated array looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>[<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">12</span>]
+</span></span></code></pre></div><p>When we complete the remaining iterations, the completed array looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>[<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>]
+</span></span></code></pre></div><p>Once the array is complete, all we have to do is return <code>dp[amount]</code> to look up the minimum amount of coins required to get to the specified amount.</p>
+<p>The full return statement looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> dp[amount] <span style="color:#66d9ef">if</span> dp[amount] <span style="color:#f92672">&lt;=</span> amount <span style="color:#66d9ef">else</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><p>The <code>if dp[amount] &lt;= amount else -1</code> is required in case no amount of coins can create the specified amount, which would indicate that the denominations are not canonical.</p>
+<h2 id="complexity">Complexity</h2>
+<h3 id="time">Time</h3>
+<p><code>O(amount * n)</code> where <code>n</code> is the number of coins.</p>
+<p>We have to iterate through the array, which has a length of <code>amount + 1</code> (the 1 can be dropped), and, at each index, we have to iterate through the array of denominations.</p>
+<h3 id="space">Space</h3>
+<p><code>0(amount)</code> since the dp array requires <code>amount + 1</code> elements and the 1 is dropped.</p>
+<h2 id="code">Code</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">coinChange</span>(amount, coins):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> amount <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    dp <span style="color:#f92672">=</span> [amount <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">*</span> (amount <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>    dp[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(amount <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> coin <span style="color:#f92672">in</span> coins:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> coin <span style="color:#f92672">&lt;=</span> i:
+</span></span><span style="display:flex;"><span>                dp[i] <span style="color:#f92672">=</span> min(dp[i], dp[i <span style="color:#f92672">-</span> coin] <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> dp[amount] <span style="color:#66d9ef">if</span> dp[amount] <span style="color:#f92672">&lt;=</span> amount <span style="color:#66d9ef">else</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><h2 id="to-do">To Do</h2>
+<ul>
+<li>Walk through greedy method</li>
+<li>Walk through top-down approach</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>ELI5: Kubernetes Operators</title>
+            <link>/posts/2020/07/eli5-kubernetes-operators/</link>
+            <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/07/eli5-kubernetes-operators/</guid>
+            <description>Introduction I&amp;rsquo;ve been thinking about starting an ELI5 (Explain It Like I&amp;rsquo;m Five) Computer Science blog for a while now. I enjoy simplifying obscure, abstract concepts and making them intuitive and accessible. A wise friend once told me that complexity is easy; simplicity is hard. I hope this post succeeds in that goal.
+If not, I can always stick to my day job.
+The Kubernetes Restaurant Let&amp;rsquo;s say that you (a user) walk into a highly-regarded new restaurant named&amp;hellip;Kubernetes.</description>
+            <content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>I&rsquo;ve been thinking about starting an ELI5 (Explain It Like I&rsquo;m Five) Computer Science blog for a while now. I enjoy simplifying obscure, abstract concepts and making them intuitive and accessible. A wise friend once told me that complexity is easy; simplicity is hard. I hope this post succeeds in that goal.</p>
+<p>If not, I can always stick to my day job.</p>
+<h2 id="the-kubernetes-restaurant">The Kubernetes Restaurant</h2>
+<p>Let&rsquo;s say that you (a user) walk into a highly-regarded new restaurant named&hellip;<a href="https://kubernetes.io/">Kubernetes</a>. You&rsquo;re seated at a table, given a menu, and, after an appropriate length of time, a charming waiter (the <a href="https://kubernetes.io/docs/concepts/overview/kubernetes-api/">Kubernetes API</a>) takes your order, which consists of several items (<a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/">Kubernetes objects</a>).</p>
+<p>The waiter adds your order to the order list (<a href="https://kubernetes.io/docs/concepts/overview/components/#etcd">etcd</a>, the Kubernetes data store).</p>
+<p>A grizzled, curmudgeonly cook (a <a href="https://kubernetes.io/docs/concepts/architecture/controller/">Kubernetes controller</a>) retrieves your order from the order list and prepares the requested dishes.</p>
+<p>Note, you don&rsquo;t actually have to know how the food is prepared. That&rsquo;s the nice thing about restaurants. Sometimes you feel like eating something, but you don&rsquo;t have the time, skills, or knowledge necessary to prepare it yourself. At this restaurant, all you have to do is state your desire <strong>declaratively</strong>, and the cook (the Kubernetes controller) gives you what you want by walking through a sequence of <strong>imperative</strong> steps. That&rsquo;s a big part of the beauty of Kubernetes. Many other solutions are the equivalent of cooking at home. Kubernetes offloads that imperative burden.</p>
+<h2 id="operators">Operators</h2>
+<p>Let&rsquo;s say you&rsquo;re itching for a specific dish that&rsquo;s not on the menu. Luckily, the owner of the restaurant is open to suggestions from customers (Kubernetes is <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/extend-cluster/">awesomely extensible</a>). You can ask the owner to add an item to the menu (a <a href="https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/">Custom Resource Definition</a>, which creates both a new object type and a new API endpoint). The owner generously agrees.</p>
+<p>Now anyone can place an order for the new item (a <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/">Custom Resource</a>). The trouble is, the existing cooks (vanilla controllers) don&rsquo;t know how to prepare the new dish, so a new cook (a custom controller) is hired (deployed). When requests come in for the new order, the new cook responds to them by executing a sequence of steps and, in most cases, delegating some work to the original cooks (vanilla controllers).</p>
+<p>That&rsquo;s all an <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/operator/">Operator</a> is: a new item on the menu and a new cook who knows how to prepare it, or in other words, the combination of a Custom Resource Definition and a custom controller that watches and responds to changes in the associated custom resources.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>I&rsquo;m not feeling very optimistic, but I hope you enjoyed this post. Maybe I&rsquo;ll add some terrible illustrations down the line. If nothing else, it beats how CRDs are described as horrific Dr.Moreau-esque chimeras in <a href="https://www.cncf.io/phippy-goes-to-the-zoo-book/">Phippy Goes To The Zoo</a>.</p>
+<blockquote>
+<p>Zee halted abruptly. In the distance, a black-railed fence arose. The arches above the pen were marked C-R-D. Between the bars, Zee could make out some peculiar critters. A giraffe with a hippopotamus head. A snake with raccoon ears. A lion with a beaver’s tail. A unicorn with no horn. Zee wasn’t sure she liked the looks of that place.</p>
+</blockquote>
+<p><img src="https://www.cncf.io/wp-content/uploads/2018/12/phippy-goes-to-the-zoo-18-1.png" alt=""></p>
+<blockquote>
+<p>“Oh,” said Phippy, a look of concern on her face, “Uh… look! It’s lunch time! We’d better head home.”</p>
+</blockquote>
+<p><img src="/img/phippy.png" alt=""></p>
+<p>Calm down, Phipphy!</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Leveled logs with Cobra and Logrus</title>
+            <link>/posts/2020/07/leveled-logs-with-cobra-and-logrus/</link>
+            <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/07/leveled-logs-with-cobra-and-logrus/</guid>
+            <description>I recently wrote a CLI using Cobra, a widely adopted CLI framework for Golang that&amp;rsquo;s used in Kubectl, Docker, Terraform, Hugo, and other industry-standard CLIs.
+I wanted to use Logrus, a highly regarded structured logging framework for Go. I wanted informative, colorized, leveled logs, but I also wanted to be able to log simple, user-facing output without all of the bells and whistles. I was surprised at the lack of documentation around this simple goal.</description>
+            <content type="html"><![CDATA[<p>I recently wrote a CLI using <a href="https://github.com/spf13/cobra">Cobra</a>, a widely adopted CLI framework for Golang that&rsquo;s used in Kubectl, Docker, Terraform, Hugo, and other industry-standard CLIs.</p>
+<p>I wanted to use <a href="https://github.com/sirupsen/logrus">Logrus</a>, a highly regarded structured logging framework for Go. I wanted informative, colorized, leveled logs, but I also wanted to be able to log simple, user-facing output without all of the bells and whistles. I was surprised at the lack of documentation around this simple goal.</p>
+<p>Here&rsquo;s one way to solve this problem.</p>
+<p>Create a file called <code>logging.go</code> in your <code>cmd</code> package:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">cmd</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">log</span> <span style="color:#e6db74">&#34;github.com/sirupsen/logrus&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;github.com/spf13/cobra&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">debug</span> <span style="color:#66d9ef">bool</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">PlainFormatter</span> <span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> (<span style="color:#a6e22e">f</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">PlainFormatter</span>) <span style="color:#a6e22e">Format</span>(<span style="color:#a6e22e">entry</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Entry</span>) ([]<span style="color:#66d9ef">byte</span>, <span style="color:#66d9ef">error</span>) {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> []byte(<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Sprintf</span>(<span style="color:#e6db74">&#34;%s\n&#34;</span>, <span style="color:#a6e22e">entry</span>.<span style="color:#a6e22e">Message</span>)), <span style="color:#66d9ef">nil</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">toggleDebug</span>(<span style="color:#a6e22e">cmd</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">cobra</span>.<span style="color:#a6e22e">Command</span>, <span style="color:#a6e22e">args</span> []<span style="color:#66d9ef">string</span>) {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">debug</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Info</span>(<span style="color:#e6db74">&#34;Debug logs enabled&#34;</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">SetLevel</span>(<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">DebugLevel</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">SetFormatter</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">TextFormatter</span>{})
+</span></span><span style="display:flex;"><span>	} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">plainFormatter</span> <span style="color:#f92672">:=</span> new(<span style="color:#a6e22e">PlainFormatter</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">SetFormatter</span>(<span style="color:#a6e22e">plainFormatter</span>)
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Add a <code>PreRun</code> to each of your Cobra commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">addCmd</span> = <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">cobra</span>.<span style="color:#a6e22e">Command</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">PreRun</span>: <span style="color:#a6e22e">toggleDebug</span>, <span style="color:#75715e">// This. 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">Run</span>: <span style="color:#66d9ef">func</span>(<span style="color:#a6e22e">cmd</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">cobra</span>.<span style="color:#a6e22e">Command</span>, <span style="color:#a6e22e">args</span> []<span style="color:#66d9ef">string</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Subcommand logic goes here.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Add a global persistent flag to <code>root.go</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">init</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">rootCmd</span>.<span style="color:#a6e22e">PersistentFlags</span>().<span style="color:#a6e22e">BoolVarP</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">debug</span>, <span style="color:#e6db74">&#34;debug&#34;</span>, <span style="color:#e6db74">&#34;d&#34;</span>, <span style="color:#66d9ef">false</span>, <span style="color:#e6db74">&#34;verbose logging&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>It&rsquo;s as simple as that. Now you can reap the benefits of flag-toggled leveled logs. Use the following invocations anywhere in your code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Info</span>()
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Debug</span>()
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Warning</span>()
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Error</span>()
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatal</span>()
+</span></span></code></pre></div><p>Debug logs are suppressed by default. You can pass the <code>--debug</code> or <code>-d</code> flag to any command to print more verbose, colorized debug logs, which are super helpful when troubleshooting.</p>
+<p>I hope you found this helpful.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Explain in the membrane</title>
+            <link>/posts/2019/07/explain-in-the-membrane/</link>
+            <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/07/explain-in-the-membrane/</guid>
+            <description>Explainshell I stumbled into this brilliant tidbit in a post by LostCharacter on ycombinator.
+Here&amp;rsquo;s the actual code:
+explain () {  if [ &amp;#34;$#&amp;#34; -eq 0 ]  then  while read -p &amp;#34;Command: &amp;#34; cmd  do  curl -Gs &amp;#34;https://www.mankier.com/api/explain/?cols=&amp;#34;$(tput cols) --data-urlencode &amp;#34;q=$cmd&amp;#34;  done  echo &amp;#34;Bye!&amp;#34;  elif [ &amp;#34;$#&amp;#34; -eq 1 ]  then  curl -Gs &amp;#34;https://www.mankier.com/api/explain/?cols=&amp;#34;$(tput cols) --data-urlencode &amp;#34;q=$1&amp;#34;  else  echo &amp;#34;Usage&amp;#34;  echo &amp;#34;explain interactive mode.</description>
+            <content type="html"><![CDATA[<h2 id="explainshell">Explainshell</h2>
+<p>I stumbled into this brilliant tidbit in a <a href="https://news.ycombinator.com/item?id=13994923">post</a> by LostCharacter on ycombinator.</p>
+<p>Here&rsquo;s the actual code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>explain <span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$#<span style="color:#e6db74">&#34;</span> -eq <span style="color:#ae81ff">0</span> <span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> read -p <span style="color:#e6db74">&#34;Command: &#34;</span> cmd
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>            curl -Gs <span style="color:#e6db74">&#34;https://www.mankier.com/api/explain/?cols=&#34;</span><span style="color:#66d9ef">$(</span>tput cols<span style="color:#66d9ef">)</span> --data-urlencode <span style="color:#e6db74">&#34;q=</span>$cmd<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">done</span>
+</span></span><span style="display:flex;"><span>        echo <span style="color:#e6db74">&#34;Bye!&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elif</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$#<span style="color:#e6db74">&#34;</span> -eq <span style="color:#ae81ff">1</span> <span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>        curl -Gs <span style="color:#e6db74">&#34;https://www.mankier.com/api/explain/?cols=&#34;</span><span style="color:#66d9ef">$(</span>tput cols<span style="color:#66d9ef">)</span> --data-urlencode <span style="color:#e6db74">&#34;q=</span>$1<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>        echo <span style="color:#e6db74">&#34;Usage&#34;</span>
+</span></span><span style="display:flex;"><span>        echo <span style="color:#e6db74">&#34;explain                  interactive mode.&#34;</span>
+</span></span><span style="display:flex;"><span>        echo <span style="color:#e6db74">&#34;explain &#39;cmd -o | ...&#39;   one quoted command to explain it.&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>It interacts with <a href="https://www.mankier.com/">www.mankier.com</a> (an awesome website in its own right) to explain what a specified bash command does, and most compellingly, what the specified flags do.</p>
+<p><a href="https://www.explainshell.com/">Explainshell</a> offers a similar service, but staying in the terminal ecosystem is preferable because it alleviates the need to switch contexts and justifies a degree of technical elitism. Browsers are for newbs, after all. You&rsquo;re reading this via Lynx I assume.</p>
+<p>Here&rsquo;s an example of usage and corresponding output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>❯ explain <span style="color:#e6db74">&#39;rsync -a&#39;</span>
+</span></span><span style="display:flex;"><span>rsync<span style="color:#f92672">(</span>1<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>  a fast, versatile, remote <span style="color:#f92672">(</span>and local<span style="color:#f92672">)</span> file-copying tool
+</span></span><span style="display:flex;"><span>-a <span style="color:#f92672">(</span>-A, --ARCHIVE<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>    This is equivalent to -RLPTGOD. It is a quick way of saying you want recursion and want to preserve almost everything <span style="color:#f92672">(</span>with -H being a
+</span></span><span style="display:flex;"><span>    notable omission<span style="color:#f92672">)</span>. The only exception to the above equivalence is when --FILES-FROM is specified, in which <span style="color:#66d9ef">case</span> -R is not implied.
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    Note that -A DOES NOT PRESERVE HARDLINKS, because finding multiply-linked files is expensive. You must separately specify -H.
+</span></span><span style="display:flex;"><span>                                                                                                             https://www.mankier.com/1/rsync
+</span></span></code></pre></div><p>Just add the function to your respective shell profile, and revel in the glory of bashlightenment.</p>
+<h2 id="cheatsh">Cheat.sh</h2>
+<p><a href="https://cheat.sh/">Cheat.sh</a> is very useful. The command line interface can be installed in <a href="https://github.com/chubin/cheat.sh#installation">two steps</a>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh
+</span></span><span style="display:flex;"><span>chmod +x /usr/local/bin/cht.sh
+</span></span></code></pre></div><p>Once installed, just type <code>cht.sh &lt;any question&gt;</code>. It runs a stack overflow search and returns the response with the highest upvotes, circumventing the need to context switch to your browser.</p>
+<p>Here&rsquo;s an example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>❯ cht.sh python random int
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#  python - Generate random integers between 0 and 9</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#  Try:</span>
+</span></span><span style="display:flex;"><span>from random import randint
+</span></span><span style="display:flex;"><span>print<span style="color:#f92672">(</span>randint<span style="color:#f92672">(</span>0, 9<span style="color:#f92672">))</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#  More info:</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#  https://docs.python.org/3/library/random.htmlrandom.randint</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#  [kovshenin] [so/q/3996904] [cc by-sa 3.0]</span>
+</span></span></code></pre></div><h2 id="story-time">Story Time</h2>
+<p>Since we&rsquo;re (sort of) on the subject, I heard a funny story from a friend recently.</p>
+<p>He complimented a man wearing this t-shirt:
+<img src="/img/shell_script_tshirt.jpg" alt=""></p>
+<p>&ldquo;Do you know who I am?&rdquo; Asked the man.</p>
+<p>&ldquo;No,&rdquo; replied my friend.</p>
+<p>&ldquo;I&rsquo;m <a href="https://en.wikipedia.org/wiki/David_Korn_(computer_scientist)">David Korn</a>. I invented the Korn shell. When I say I can replace you with a shell script, I mean it.&rdquo;</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
