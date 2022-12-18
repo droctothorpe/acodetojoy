@@ -38,11 +38,11 @@ WPAYTTS.
 
 Someone should make silicone bracelets with that or something.
 
-The relationship between how effectively and comprehensively you describe the
-problem and how interested in the solution (and willing to to grapple with complexity) your
-audience is is directly proportional.
+There's a directly proportional relationship between (1) how effectively and comprehensively you describe the
+problem, and (2) how interested in the solution (and willing to to grapple with complexity) your
+audience is.
 
-Demos are often time constrained. Sometimes you have to cut corners. Do not cut
+Demos are often time-constrained. Sometimes you have to cut corners. Do not cut
 this one. Always describe the problem.
 
 You can provide additional details downstream. If you've adequately justified
@@ -61,6 +61,6 @@ often be more effective.
 
 I often engage in RDD, rage-driven development (as opposed to resume-driven
 development). Consequently, I tend to be _intimately_ familiar with (and furious
-about), the _Problem_. I find complaining about it at length to a more or less
+about), the _problem_. I find complaining about it at length to a more or less
 captive (and interested) audience oddly cathartic, and there's no better way to
-whet the appetite for a solution.
+whet their appetites for a solution.
