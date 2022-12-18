@@ -9,6 +9,14 @@ tags:
 ---
 ## Order of magnitude
 
+In a recent a meeting, a brilliant teammate concluded a remark about a subtle distinction by apologizing for being pedantic.
+
+"You don't have to apologize for being pedantic," I replied. "I wish people were more pedantic."
+
+I meant it. 
+
+
+
 I recently looked at an engineering resume that had a superfluous space at the
 start of one of the first paragraph. I immediately set it down. 
 
