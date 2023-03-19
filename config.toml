@@ -51,7 +51,7 @@ tag = "tags"
 dateform = "Jan 2, 2006"
 dateformNum = "2006-01-02"
 dateformNumTime = "2006-01-02 15:04 -0700"
-dateformShort = "Jan 2"
+dateformShort = "Jan 2, 2006"
 
 # Metadata mostly used in document's head
 description = "a code to joy"
@@ -91,7 +91,7 @@ msapplication = "#252627"
 theme = "#252627"
 
 [params.logo]
-logoHomeLink = "/"
+logoHomeLink = "/posts"
 logoText = "a code to joy"
 # Set true to remove the logo cursor entirely.
 # logoCursorDisabled = false
